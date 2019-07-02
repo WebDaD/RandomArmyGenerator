@@ -14,7 +14,7 @@
   },
   "husky": {
     "hooks": {
-      "pre-push": "npm run lint"
+      "pre-push": "echo 'Running Lint' && npm run lint"
     }
   },
   "devDependencies": {
