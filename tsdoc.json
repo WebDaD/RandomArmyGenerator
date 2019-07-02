@@ -1,0 +1,37 @@
+{
+	"tags":
+	{
+		"allowUnknownTags" : true
+	},
+	"plugins":[
+		"plugins/markdown"
+		,"/Users/sigmundd/Code/rag/node_modules/tsdoc/template/plugins/TSDoc.js"
+	],
+	"opts":
+	{
+		"template"	:"/Users/sigmundd/Code/rag/node_modules/tsdoc/template",
+		"recurse"	:"true"
+	},
+	"templates" : {
+		"cleverLinks"     : false,
+		"monospaceLinks"  : false
+	},
+	"source":
+	{
+		"includePattern": "(\\.d)?\\.ts$"
+	},
+	"markdown"  : {
+		"parser"   : "gfm",
+		"hardwrap" : true
+	},
+	"tsdoc":{
+		"source"		:"/Users/sigmundd/Code/rag/src/",
+		"destination"	:"/Users/sigmundd/Code/rag/docs",
+		"tutorials"		:"",
+		"systemName"	: "rag",
+		"footer"		: "",
+		"copyright"		: "rag Copyright © 2019 sigmundd.",
+		"outputSourceFiles" : true,
+		"commentsOnly": true
+	}
+}
