@@ -1,0 +1,11 @@
+[
+  {
+    "name": "M-14",
+    "minRange": 0,
+    "maxRange": 600,
+    "minDamage": 20,
+    "maxDamage": 100,
+    "damageType": "PIERCING",
+    "accuracy": 0.75
+  }
+]
